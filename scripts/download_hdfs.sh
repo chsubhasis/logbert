@@ -1,6 +1,7 @@
 #!/bin/bash
 
-file="${HOME}/.dataset/hdfs/"
+#file="${HOME}/workspaces/logbert/.dataset/hdfs/"
+file="/workspaces/logbert/dataset/hdfs/"
 if [ -e $file ]
 then
   echo "$file exists"
